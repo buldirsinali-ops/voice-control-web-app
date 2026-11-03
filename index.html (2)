@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дауыспен басқарылатын веб-қосымша</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Дауыспен басқару тақтасы</h1>
+        <p>Микрофонды қосып, команда айтыңыз (Мысалы: "Сәлем", "Фонды өзгерту"):</p>
+        
+        <button id="mic-btn" class="mic-button">🎙️ Сөйлеу</button>
+        
+        <div id="status" class="status-box">Дайын...</div>
+        
+        <div class="task-section">
+            <h2>Тапсырмалар тізімі</h2>
+            <ul id="task-list">
+                <li>Мысал тапсырма 1</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
